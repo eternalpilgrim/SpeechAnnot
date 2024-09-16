@@ -9,7 +9,7 @@
 		"96": "icon32.png"
     }
 },
-"permissions": ["activeTab", "scripting","webNavigation","clipboardWrite"],
+"permissions": ["activeTab", "scripting","webNavigation","clipboardWrite","clipboardRead"],
  "content_scripts": [
     {
       "matches": ["<all_urls>"],
